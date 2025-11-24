@@ -1,3 +1,23 @@
+
+# Options_Math_Helpers
+This is the Parent class to all of the other Options_Math classes.  It contains administrative commands that help format data.
+
+# Options_Math_Algebra
+This code covers intrinsic value and put-call parity.
+
+# Options_Math_Black_Scholes
+This code has all of the classic Black-Scholes formulas for pricing and greeks (first, second and some third order).  The code also includes a Newton-Raphson implied volatility solver and a yet to be implemented BrentQ implied volatility solver.  There is a long comment at the start of the module that encourages use of a zero interest rate, an forward price (instead of spot), and discounting of the option price outside the Black-Scholes formula
+
+# Options_SABR_Skew
+This code has all of the formulas needed to compute skew under the SABR approach.  It is best for interest rate derivatives.  There is also code to solve for the SABR parameters that best fit the market volatility data.
+
+# Options_Wow_Alpha_Skew
+This code has all of the formulas needed to compute skew under the SIG's old wow-alpha approach.  It is best for equities and fits certain crypto options surfaces very well also.  Like the SABR skew approach above, there is code to solve for the wow-=alpha parameters that best fit the market volatility data.
+
+
+
+
+
 # enrich-options-prices
 This code enriches the market prices of a grid of options to non-arbitrage levels.
 
