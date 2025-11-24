@@ -1,3 +1,4 @@
+This code performs options math including Black Scholes pricing and greeks, volatility back-solving, and parameterized skew generation.
 
 # Options_Math_Helpers
 This is the Parent class to all of the other Options_Math classes.  It contains administrative commands that help format data.
